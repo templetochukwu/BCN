@@ -1,0 +1,478 @@
+/*
+ Theme Name:   GeneratePress Child
+ Theme URI:    https://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:       Tom Usborne
+ Author URI:   https://tomusborne.com
+ Template:     generatepress
+ Version:      0.1
+*/
+
+
+/*Plugin Cookies => Btn aceptar todas*/
+
+.cky-btn-accept {margin:8px 8px 0 0 !important;}
+
+/*========== GENÉRICOS ==========*/
+
+/*Etiquetas*/
+p {color: #103f58;}
+a {cursor:pointer !important;}
+strong {color:007caa;}
+
+p:last-child {margin-bottom:0;}
+
+/*titulos Páginas*/
+.tituloPagina1 h1,.tituloPagina1 span {line-height:1.3em;}
+.tituloPagina2 h2 {line-height:1.3em; margin-top:10px; margin-bottom:30px;}
+.tituloPaginaDoble {margin-bottom:0 !important;}
+.tituloPaginaDoble h2 {margin-top:10px; margin-bottom:0;}
+.tituloSolo h2 {margin-bottom:30px !important;}
+.comoH2 {line-height:1.1em; margin-bottom:30px; font-size:38px; letter-spacing:-1px;}
+
+span.tituloPaginaPeq,.tituloPaginaPeq span,.tituloPaginaPeq {display:block; font-size:25px; line-height:1.3em; margin-bottom:25px; letter-spacing:-1px; font-weight:600; color:#FF8110;}
+span.tituloPaginaPeqAnt,.tituloPaginaPeqAnt span {display:block; font-size:25px; line-height:1.3em; letter-spacing:-1px; font-weight:600; color:#FF8110;}
+
+.highlight {color:#103f58; font-weight:600;}
+.breveTextoSeccion {width:auto !important; margin:0 auto 80px auto; margin-bottom:20px !important;}
+
+/*===== Colores Corporativos =====*/
+
+div.blancoP p {color:#fff !important;}
+div.blancoH h2,div.blancoH h1,div.blancoH h3 {color:#fff !important;}
+.corporativoH {color:#1f3c54 !important;}
+
+/*Color BG*/
+.corporativoBG {background-color:#1f3c54 !important;}
+.colBordeCorporativo {border: 2px solid #1f3c54;}
+
+/*===== Fin Colores Corporativos =====*/
+
+
+/*Botones*/
+.btn2 a {margin-top:25px; padding:15px 35px !important; background-color:transparent!important; font-size:17px; color:#316db5 !important; border-radius:12px !important; border:2px solid #316db5 !important; font-weight:600; cursor:pointer;}
+.btn2 a:hover{background-color:#316db5 !important; color:#fff !important;}
+
+.btn2 span.elementor-button-icon > svg {fill:#316db5;}
+.btn2 a:hover span.elementor-button-icon > svg {fill:#fff;}
+
+.btn1 a, .btn2 button,#btn2 {margin-top:25px; padding:15px 35px !important; background-color:#316db5; font-size:17px; color:#fff !important; border-radius:12px !important; border:2px solid #316db5; font-weight:600; cursor:pointer;}
+.btn1 a:hover {background-color:#8ea7c0 !important; color:#fff !important; border:2px solid #8ea7c0;}
+
+.btn3 a {margin-top:25px; padding:15px 35px !important; background-color:#8ea7c0; font-size:17px; color:#fff !important; border-radius:12px !important; font-weight:600; cursor:pointer;}
+.btn3 a:hover{background-color:#8EA7C0C4 !important; color:#fff !important;}
+
+/*Form*/
+input[type="text"],input[type="email"],input[type="tel"],select,textarea{padding:15px 20px !important; border-radius:50px !important; border:1 px solid #fff !important; background-color:transparent !important; font-size:16px;}
+.elementor-field-group .elementor-field-textual {border-color:#fff !important; color:#fff !important;}
+form {font-size:16px;}
+
+
+/*Form Estudio*/
+#formEstudio .elementor-field-subgroup {margin:0 auto; width:100%; justify-content:space-between;}
+#formEstudio .elementor-subgroup-inline .elementor-field-option{padding-left:60px !important; padding-right:0; text-align:center;}
+#formEstudio .elementor-subgroup-inline > .elementor-field-option:first-child {padding-left:0 !important;}
+
+#formEstudio input[type="text"],#formEstudio input[type="email"],#formEstudio input[type="tel"],#formEstudio input[type="number"]{border-radius:50px !important; border:1px solid #1f3c545e !important; padding:15px 20px !important; font-size:16px !important;}
+#formEstudio .elementor-field-group .elementor-field-textual {border-color:#1f3c5461 !important; color:#1F3C54 !important;}
+
+#formEstudio input::placeholder {color:#1f3c545e !important; opacity:1 !important;}
+#formEstudio input:focus {background-color:#dddddd21 !important;}
+#formEstudio button {margin-top:120px;}
+
+#formEstudio .tipoVivienda input {position:absolute; display:none;}
+#formEstudio .tipoVivienda input:checked + label span.elementor-icon {background-color: #1f3c54; border-radius:50px;}
+#formEstudio .tipoVivienda .elementor-icon {font-size:70px;}
+/*Pasos*/
+#formEstudio .e-form__indicators {margin-bottom:120px;}
+#formEstudio .e-form__indicators__indicator--state-active > .e-form__indicators__indicator--shape-circle,#formEstudio .e-form__indicators__indicator--state-completed > .e-form__indicators__indicator--shape-circle {color:#1F3C54 !important; border-color:#FF8110 !important;}
+#formEstudio .e-form__indicators__indicator__separator {background-color:#ff8110;}
+
+/*===== Posición-sangre =====*/
+
+.centrado {text-align:center;}
+
+/*Margin*/
+.bottom20{margin-bottom:20px;}
+.bottom30{margin-bottom:30px;}
+.bottom40{margin-bottom:40px;}
+.bottom60{margin-bottom:60px;}
+.bottom80{margin-bottom:80px;}
+.bottom100{margin-bottom:100px;}
+.bottom120{margin-bottom:120px;}
+.bottom150{margin-bottom:150px;}
+.sinMarginBottom {margin-bottom:0px !important;}
+.top80 {margin-top:80px;}
+.top100 {margin-top:100px;}
+.top120 {margin-top:120px;}
+.top150 {margin-top:150px;}
+	
+/*Padding*/
+.sinPadding {padding:0;}
+.sinPaddingTop {padding-top:0;}
+.sinPaddingBottom {padding-bottom:0 !important;}
+.topP20{padding-top:20px;}
+.topP60{padding-top:60px;}
+.topP80{padding-top:80px;}
+.rightP20{padding-right:20px;}
+.bottomP20{padding-bottom:20px;}
+.bottomP60{padding-bottom:60px;}
+.bottomP80{padding-bottom:80px;}
+.leftP20{padding-left:20px;}
+
+/*===== Fin Posición-sangre =====*/
+
+
+/*===== Bloques - Columnas =====*/
+.contenedor {margin-top:80px !important;}
+.bloque {padding:150px 0;}
+.bloqueMed {padding:1em;}
+.bloqueBanner {padding:100px 0 100px 0;}
+
+.col{padding:1em;}
+.colx2_L {}
+.colx2_R {}
+
+/*===== Fin Bloques - Columnas =====*/
+
+/*========== FIN GENÉRICOS ==========*/
+
+/*POP UP PEDIR CITA*/
+.elementor-popup-modal .dialog-widget-content {border-radius:25px !important;}
+#elementor-popup-modal-2858 .dialog-close-button svg {fill:#316db5 !important;}
+#popUp_llamada .tituloPagina2 {margin-bottom:0 !important; display:flex; align-items:center;}
+#popUp_llamada .tituloPagina2 h2 {font-size:29px; margin-bottom:0 !important; padding-left:10px;}
+#popUp_llamada .subtitulo {margin-bottom:0;}
+#popUp_llamada .subtitulo span {font-size:17px; font-weight:500; line-height:1.2em; padding:25px 0 !important; display:block;}
+#popUp_llamada  .elementor-field-group .elementor-field {color:#316db5;}
+
+#popUp_llamada #formLlamada_popUp input, select, textarea {padding:12px 20px !important; border-radius:50px;}
+
+/*========== MENÚ ==========*/
+	.menu li {padding:0;}
+	.menu a {font-weight:600; color:#1F3C54; font-size:16px; padding:0 12px !important; cursor:pointer !important;}
+	.menu a:hover,.menu li a.elementor-item-active{color:#ff8110 !important;}
+	.menu li:last-child a {padding:0 6px 0 12px !important;}
+
+	/*Submenú*/
+	.menu ul.sub-menu {padding:8px !important;}
+	.menu ul.sub-menu li a {padding:8px 16px !important;}
+	.menu a > span.sub-arrow .e-font-icon-svg {fill:#fff;}
+	.menu a:hover > span.sub-arrow .e-font-icon-svg {fill:#ff8110;}
+	
+	#header {background-color:#fff; padding:15px 0;}
+	
+	/*Btn Header*/
+	#header .btnHeader a {font-weight:600; font-size:16px !important;}
+
+	/*===== Sticky Menú =====*/
+	#header.sticky-header {
+		--header-height: 50px;
+		--opacity: 1;
+		--shrink-me: 0.60;
+		--sticky-background-color: #fff;
+		--transition: .1s ease;
+
+		transition: background-color var(--transition),
+					background-image var(--transition),
+					backdrop-filter var(--transition),
+					opacity var(--transition) !important;
+	}
+
+	#header.sticky-header.elementor-sticky--effects { background-color: var(--sticky-background-color) !important; opacity: var(--opacity) !important;}
+	#header.sticky-header.elementor-sticky--effects { transition: background-color var(--transition) !important;}
+
+	#header.sticky-header.elementor-sticky--effects{min-height:calc(var(--header-height) * var(--shrink-me))!important; padding:5px 0;}
+	#header.sticky-header.elementor-sticky--effects{transition: min-height var(--transition) !important,padding var(--transition)!important;}
+
+	#header.sticky-header.elementor-sticky--effects .menu a,#menu.sticky-header.elementor-sticky--effects .btnHeader a {font-size:15px !important;}
+	#menu.sticky-header.elementor-sticky--effects .menu a {transition:font-size var(--transition);}
+
+	/*Logo*/
+	#header.sticky-header.elementor-sticky--effects .logo img {
+		max-width: calc(100% * var(--shrink-me));}
+	#header.sticky-header > .elementor-container .logo img {
+		transition: max-width var(--transition);}
+	/*===== Final Sticky Menú =====*/
+
+/*========== FIN MENÚ ==========*/
+
+/*========== FOOTER ==========*/
+	#preFooter button {margin-top:25px;}
+	.copy p,.copy a {color:#fff;}
+
+	#footer p, #footer span, #footer a {color:#fff; font-size:15px;}
+	#footer p {margin-bottom:0;}
+	#footer .logoFooter {margin-bottom:40px;}
+	#footer .tituloFooter span {color:#fff; font-size:18px; font-weight:600; letter-spacing:-1px;}
+
+/*========== FIN FOOTER ==========*/
+
+
+/*========== HOME ==========*/
+
+	/*Bloque 1 - Header*/
+	#bcnenergia_bloque1 .tituloPagina1 span {font-size:54px; font-weight:700; letter-spacing:-1px;}
+	#bcnenergia_bloque1 .tituloPagina1 em {color:#1F3C54; font-style:normal; font-weight:700; font-size:34px;}
+	#bcnenergia_bloque1 .tituloH1 {visibility:hidden; margin-bottom:0;}
+	#bcnenergia_bloque1 .tituloH1 h1 {font-size:7px;}
+	#bcnenergia_bloque1 .btnDescubrelo a {animation: pulse-blue 2s infinite;}
+	@keyframes pulse-blue {
+		0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(26, 51, 244, 0.7);
+		}
+		70% {
+			transform: scale(1);
+			box-shadow: 0 0 0 30px rgba(26, 51, 244, 0);
+		}
+		100% {
+			transform: scale(0.95);
+			box-shadow: 0 0 0 0 rgba(26, 51, 244, 0);
+		}
+	}
+	
+	/*Fin Bloque 1 - Header*/
+	
+	#bcnenergia_bloque3 span.tituloPaginaPeq {margin-bottom:0px;}
+	#bcnenergia_bloque3 .galeria .swiper-slide {border-radius:12px;}
+	
+	#bcnenergia_bloque4 strong.highlight {font-weight:700;} 
+	.elementor-slideshow__title {display:none !important;}
+	
+	/*Bloque Carrousel*/
+	#bcnenergia_bloqueCarrousel .jet-carousel__item .jet-carousel__item-inner {background-color:#FFC0000D;}
+	#bcnenergia_bloqueCarrousel a.jet-carousel__item-link {padding:30px 25px 0 25px;}
+	#bcnenergia_bloqueCarrousel .tituloPagina2 h2 span.tituloPaginaPeq {color:#fff;}
+	/*Fin Bloque Carrousel*/
+	
+	/*BCN Energia Bloque 8 - Reseñas*/
+	div.elementor-testimonial__text {font-size:18px; text-align:center;}	
+	.swiper-wrapper .elementor-testimonial__header {flex-wrap:wrap; flex-direction:column; align-content:center; padding-top:0; padding-bottom:30px;}
+	.swiper-wrapper .elementor-testimonial__name {font-size:22px;}
+	.swiper-wrapper .elementor-star-rating, .swiper-wrapper .elementor-testimonial__title {display:flex; justify-content:center;}
+	.swiper-wrapper .elementor-star-rating {order:2;}
+.elementor-star-rating i:before {color:#FFC000 !important;}
+	.swiper-wrapper .elementor-testimonial__title {order:1; font-size:14px; text-align:center;}
+	/*Fin BCN Energia Bloque 8 - Reseñas*/
+
+/*========== FIN HOME ==========*/
+
+
+/*---------------------- 4K ----------------------*/
+@media screen and (min-width: 3801px) and (max-width: 4000px) {
+	/*Container ancho*/
+	.elementor-section.elementor-section-boxed > .elementor-container {max-width: 2300px !important;}
+}
+
+
+@media screen and (min-width: 3001px) and (max-width: 3800px) {
+	/*Container ancho*/
+	.elementor-section.elementor-section-boxed > .elementor-container {max-width: 2300px !important;}
+}
+
+@media screen and (min-width: 2801px) and (max-width: 3000px) {
+	/*Container ancho*/
+	.elementor-section.elementor-section-boxed > .elementor-container {max-width: 1800px !important;}
+}
+
+@media screen and (min-width: 2401px) and (max-width: 2800px) {
+	/*Container ancho*/
+	.elementor-section.elementor-section-boxed > .elementor-container {max-width: 1800px !important;}
+}
+
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px)   
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 	  	
+	  
+}
+
+
+/*---------------------- MACBOOK AIR ----------------------*/
+
+@media only screen and (max-width: 1440px) and (min-width: 1280px){
+	/*Container ancho*/
+	.elementor-section.elementor-section-boxed > .elementor-container {max-width:1200px !important;}
+}
+
+
+/*---------------------- PORTATIL ----------------------*/
+
+@media only screen and (max-width: 1376px) and (min-width: 1280px){
+	
+	/*Padding página*/
+	section.elementor-top-section > .elementor-container {padding:0 20px !important;}
+}
+
+/*---------------------- MACBOOK----------------------*/
+
+@media only screen and (max-width: 1280px) and (min-width: 1024px){
+	
+	/*Padding página*/
+	section.elementor-top-section > .elementor-container {padding:0 20px !important;}
+}
+
+/*---------------------- TABLET HORIZONTAL ----------------------*/
+
+@media only screen and (max-width: 1200px) and (min-width: 1024px){
+	
+	/*Padding página*/
+	section.elementor-top-section > .elementor-container {padding:0 20px !important;}
+	
+	/*========== MENU ==========*/	
+		.menu ul {padding:10px 0;}
+		.menu a{padding:10px 20px !important;}
+		.menu {padding:20px 0;}
+	/*========== MENU ==========*/
+}
+
+/*------------------ RESPONSIVE Mรณviles en horizontal o tablets en vertical-------------*/
+
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+	
+	 /*====== GENERICOS ======*/
+	
+	 p:last-child{margin-bottom:0;}	
+	
+	.colx2_L, .colx2_R {margin:0;}
+	.bloqueBig  {padding:1em; margin-bottom:20px;}
+	.bloque {padding:80px 0;}
+	.bloqueBanner {padding:60px 0 60px 0;}
+	.contenedor {margin-top:60px !important;}	
+	
+	/*Margin*/
+	.bottom20{margin-bottom:5px;}
+	.bottom30{margin-bottom:10px;}
+	.bottom40{margin-bottom:20px;}
+	.bottom60{margin-bottom:30px;}
+	.bottom80{margin-bottom:40px;}
+	.bottom100{margin-bottom:50px;}
+	.bottom120{margin-bottom:60px;}
+	.bottom150{margin-bottom:80px;}
+	
+	.tituloPagina2 h2 {margin-bottom:15px;}
+	.breveTextoSeccion p {width:auto;}
+	span.tituloPaginaPeq,.tituloPaginaPeq span,span.tituloPaginaPeqAnt,.tituloPaginaPeqAnt span {font-size:20px;}	
+	.comoH2 {font-size:30px;}
+	/*====== FIN GENERICOS ======*/
+		
+	/*Botones*/
+	.btn1 a {padding:15px 30px !important; font-size:16px;}
+	.btn1 a:hover {background-color:#f1b87b; color:#fff !important;}
+	.btn2 a, .btn2 button,#btn2 {padding:15px 30px !important; font-size:16px;}
+	
+
+	/*Padding página*/
+	section.elementor-top-section > .elementor-container,header.elementor-top-section > .elementor-container {padding:0 30px !important;}
+	
+	/*========== MENU ==========*/	
+		.menu ul {padding:10px 0;}
+		.menu a{padding:10px 20px !important;}
+		.menu {padding:20px 0;}
+		.menu .serviciosBtn{display:none;}
+		.menu li.pedirCita a{border:0 !important; left:0; padding:10px 20px !important;}
+		.fisio_OsteopatiaBtn{display:block !important;}
+	/*========== MENU ==========*/	
+}
+
+/**------------------ RESPONSIVE Moviles en vertical ------------**/ 
+@media (max-width: 480px){
+	
+	/*====== GENERICOS ======*/
+	 p,li {font-size:16px;}
+	 p:last-child{margin-bottom:0;}
+	
+	.colx2_L, .colx2_R {margin:0;}
+	.bloqueBig  {padding:1em; margin-bottom:20px; }
+	.bloqueBanner {padding:60px 0 60px 0;}
+	.bloque {padding:60px 0;}
+	.contenedor {margin-top:60px !important;}
+	
+	/*Margin*/
+	.bottom20{margin-bottom:10px;}
+	.bottom30{margin-bottom:20px;}
+	.bottom40{margin-bottom:30px;}
+	.bottom60{margin-bottom:40px;}
+	.bottom80{margin-bottom:50px;}
+	.bottom100{margin-bottom:60px;}
+	.bottom120{margin-bottom:70px;}
+	.bottom150{margin-bottom:80px;}
+	
+	.tituloPagina2 h2 {margin-bottom:20px !important;}
+	.tituloPaginaPeq span {font-size:18px; margin-top:5px; margin-bottom:15px;}
+	span.tituloPaginaPeq {font-size:18px; margin-top:5px; margin-bottom:15px;}
+	span.tituloPaginaPeqAnt,.tituloPaginaPeqAnt span {font-size:18px; margin-top:5px;}	
+	.comoH2 {font-size:28px;}
+	
+	/*====== FIN GENERICOS ======*/
+	
+	/*Botones*/
+	.btn1 a {padding:15px 30px !important; font-size:16px; margin-top:20px;}
+	.btn1 a:hover {background-color:#f1b87b; color:#fff !important;}
+	.btn2 a, .btn2 button,#btn2 {padding:15px 30px !important; font-size:16px;}
+	
+	/*Padding página*/
+	section.elementor-top-section > .elementor-container,header.elementor-top-section > .elementor-container {padding:0 20px !important;} {padding:0 20px !important;}
+	
+	/*========== MENU ==========*/	
+		#header {padding:5px 0;}
+		.menu ul {padding:20px 0;}
+		.menu {padding:20px 0;}
+		.menu a,.menu li:last-child a{padding:10px 20px !important;}
+		
+		
+	
+		#header .menuNav {order:3;}
+		#header .otrosNav {order:2;}
+		
+		/*Btn Header*/
+		#header .btnHeader a {font-size:14px !important;}
+		
+		/*Sticky Menu*/
+		#header.sticky-header {
+		--header-height: 20px;
+		--opacity: 1;
+		--shrink-me: 0.80;
+		}
+		
+		#header.sticky-header.elementor-sticky--effects{min-height:calc(var(--header-height) * var(--shrink-me))!important; padding:0;}
+		
+		/*Fin Sticky Menu*/
+	
+	/*========== FIN MENU ==========*/	
+	
+	
+	/*Form estudio*/
+	#formEstudio .elementor-subgroup-inline .elementor-field-option{padding-left:0 !important; width:33%;}
+	#formEstudio .elementor-subgroup-inline .elementor-field-option:last-child{}
+	#formEstudio button {margin-top:30px;}
+	#formEstudio .e-form__indicators {margin-bottom:60px;}
+	
+	/*========== FOOTER ==========*/	
+		#preFooter button {margin-top:20px;}
+		.copy p,.copy a {font-size:11px;}
+	/*========== FIN FOOTER ==========*/
+	
+	/*========== PÁGINA ==========*/
+		/*Bloque 1 - Header*/
+		#bcnenergia_bloque1 .tituloPagina1 span {font-size:34px; line-height:1em;}
+		#bcnenergia_bloque1 .tituloPagina1 em {font-size:26px; margin-top:15px; line-height:1em;}
+		#bcnenergia_bloque1 .inputsHeader span.elementor-icon-list-icon {display:none;}
+	
+		/*Bloque Carousel*/
+		#bcnenergia_bloqueCarrousel .tituloPagina2 h2 {color:#1F3C54 !important;}
+		#bcnenergia_bloqueCarrousel .tituloPagina2 h2 span.tituloPaginaPeq {color:#FF8110 !important; margin-top:0;}
+		#bcnenergia_bloqueCarrousel .colx2_L >div,#bcnenergia_bloqueCarrousel .colx2_L > div .elementor-background-overlay {background:none;}
+	/*========== FIN PÁGINA ==========*/
+}
